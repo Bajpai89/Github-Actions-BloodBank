@@ -6,7 +6,8 @@ on: workflow_dispatch
 
 # these are jobs inside the workflow
 jobs:
-    runs-on: ubuntu-latest
+    say-hello:
+        runs-on: ubuntu-latest
     steps:
-      - name: say hello to users
+          - name: say hello to users
         run: echo "Hello Dosto"
